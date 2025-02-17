@@ -10,7 +10,7 @@ from opaque_keys.edx.keys import CourseKey
 from lms.djangoapps.courseware.access import has_access
 from common.djangoapps.student.models import CourseEnrollment
 from django.contrib.auth.models import AnonymousUser
-from django.utils.translation import ugettext_noop
+from django.utils.translation import gettext_noop
 
 from .RocketChatError import RocketChatError
 from .RocketChat import RocketChat
